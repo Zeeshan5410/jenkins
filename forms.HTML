@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="formstyle.css" />
+  </head>
+  <body>
+    <h3>KM Custom HTML Form Example Using AppleScript</h3>
+    <hr />
+    <form action="">
+      <table border="1">
+        <tr>
+          <td>Name</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Approval required:</td>
+          <td><input type="checkbox" />Do you approve?</td>
+        </tr>
+        <tr>
+          <td>Pick your Favorite:</td>
+          <td>
+            <input type="radio" name="choice" /> Choice A <br />
+            <input type="radio" name="choice" />Choice B <br />
+            <input type="radio" name="choice" />Choice C
+          </td>
+        </tr>
+        <tr>
+          <td>Popup Menu:</td>
+          <td>
+            <select id="cars" name="cars">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="fiat">Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>List:</td>
+          <td><input type="" /></td>
+        </tr>
+        <tr>
+          <td>Field Ignored by KM:</td>
+          <td>
+            <input list="browsers" name="browser" /><datalist id="browsers">
+              <option value="Internet Explorer"></option>
+              <option value="Firefox"></option>
+              <option value="Chrome"></option>
+              <option value="Opera"></option>
+              <option value="Safari"></option>
+            </datalist>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Text:</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="Save" />
+            <input type="reset" value="Cancel" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
